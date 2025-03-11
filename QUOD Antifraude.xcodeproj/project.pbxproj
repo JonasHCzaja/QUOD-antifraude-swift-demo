@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96CBC5D82CFE9B610084086C /* ScoreAntifraudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBC5D72CFE9B610084086C /* ScoreAntifraudeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96ECBFF82CFBD09900239000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96ECBFD62CFBD09800239000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ECBFDD2CFBD09800239000;
+			remoteInfo = "QUOD Antifraude";
+		};
+		96ECC0022CFBD09900239000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96ECBFD62CFBD09800239000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ECBFDD2CFBD09800239000;
+			remoteInfo = "QUOD Antifraude";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96CBC5D72CFE9B610084086C /* ScoreAntifraudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreAntifraudeViewController.swift; sourceTree = "<group>"; };
+		96ECBFDE2CFBD09800239000 /* QUOD Antifraude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QUOD Antifraude.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECBFF72CFBD09900239000 /* QUOD AntifraudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QUOD AntifraudeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECC0012CFBD09900239000 /* QUOD AntifraudeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QUOD AntifraudeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECC0162CFBD18100239000 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		96ECC0092CFBD09900239000 /* Exceptions for "QUOD Antifraude" folder in "QUOD Antifraude" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 96ECBFDD2CFBD09800239000 /* QUOD Antifraude */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		96ECBFE02CFBD09800239000 /* QUOD Antifraude */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				96ECC0092CFBD09900239000 /* Exceptions for "QUOD Antifraude" folder in "QUOD Antifraude" target */,
+			);
+			path = "QUOD Antifraude";
+			sourceTree = "<group>";
+		};
+		96ECBFFA2CFBD09900239000 /* QUOD AntifraudeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "QUOD AntifraudeTests";
+			sourceTree = "<group>";
+		};
+		96ECC0042CFBD09900239000 /* QUOD AntifraudeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "QUOD AntifraudeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96ECBFDB2CFBD09800239000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECBFF42CFBD09900239000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECBFFE2CFBD09900239000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96ECBFD52CFBD09800239000 = {
+			isa = PBXGroup;
+			children = (
+				96CBC5D72CFE9B610084086C /* ScoreAntifraudeViewController.swift */,
+				96ECBFE02CFBD09800239000 /* QUOD Antifraude */,
+				96ECBFFA2CFBD09900239000 /* QUOD AntifraudeTests */,
+				96ECC0042CFBD09900239000 /* QUOD AntifraudeUITests */,
+				96ECC0152CFBD18100239000 /* Frameworks */,
+				96ECBFDF2CFBD09800239000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96ECBFDF2CFBD09800239000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96ECBFDE2CFBD09800239000 /* QUOD Antifraude.app */,
+				96ECBFF72CFBD09900239000 /* QUOD AntifraudeTests.xctest */,
+				96ECC0012CFBD09900239000 /* QUOD AntifraudeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96ECC0152CFBD18100239000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96ECC0162CFBD18100239000 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96ECBFDD2CFBD09800239000 /* QUOD Antifraude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECC00A2CFBD09900239000 /* Build configuration list for PBXNativeTarget "QUOD Antifraude" */;
+			buildPhases = (
+				96ECBFDA2CFBD09800239000 /* Sources */,
+				96ECBFDB2CFBD09800239000 /* Frameworks */,
+				96ECBFDC2CFBD09800239000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				96ECBFE02CFBD09800239000 /* QUOD Antifraude */,
+			);
+			name = "QUOD Antifraude";
+			packageProductDependencies = (
+			);
+			productName = "QUOD Antifraude";
+			productReference = 96ECBFDE2CFBD09800239000 /* QUOD Antifraude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96ECBFF62CFBD09900239000 /* QUOD AntifraudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECC00F2CFBD09900239000 /* Build configuration list for PBXNativeTarget "QUOD AntifraudeTests" */;
+			buildPhases = (
+				96ECBFF32CFBD09900239000 /* Sources */,
+				96ECBFF42CFBD09900239000 /* Frameworks */,
+				96ECBFF52CFBD09900239000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ECBFF92CFBD09900239000 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				96ECBFFA2CFBD09900239000 /* QUOD AntifraudeTests */,
+			);
+			name = "QUOD AntifraudeTests";
+			packageProductDependencies = (
+			);
+			productName = "QUOD AntifraudeTests";
+			productReference = 96ECBFF72CFBD09900239000 /* QUOD AntifraudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96ECC0002CFBD09900239000 /* QUOD AntifraudeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECC0122CFBD09900239000 /* Build configuration list for PBXNativeTarget "QUOD AntifraudeUITests" */;
+			buildPhases = (
+				96ECBFFD2CFBD09900239000 /* Sources */,
+				96ECBFFE2CFBD09900239000 /* Frameworks */,
+				96ECBFFF2CFBD09900239000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ECC0032CFBD09900239000 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				96ECC0042CFBD09900239000 /* QUOD AntifraudeUITests */,
+			);
+			name = "QUOD AntifraudeUITests";
+			packageProductDependencies = (
+			);
+			productName = "QUOD AntifraudeUITests";
+			productReference = 96ECC0012CFBD09900239000 /* QUOD AntifraudeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96ECBFD62CFBD09800239000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					96ECBFDD2CFBD09800239000 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					96ECBFF62CFBD09900239000 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 96ECBFDD2CFBD09800239000;
+					};
+					96ECC0002CFBD09900239000 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 96ECBFDD2CFBD09800239000;
+					};
+				};
+			};
+			buildConfigurationList = 96ECBFD92CFBD09800239000 /* Build configuration list for PBXProject "QUOD Antifraude" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96ECBFD52CFBD09800239000;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 96ECBFDF2CFBD09800239000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96ECBFDD2CFBD09800239000 /* QUOD Antifraude */,
+				96ECBFF62CFBD09900239000 /* QUOD AntifraudeTests */,
+				96ECC0002CFBD09900239000 /* QUOD AntifraudeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96ECBFDC2CFBD09800239000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECBFF52CFBD09900239000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECBFFF2CFBD09900239000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96ECBFDA2CFBD09800239000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CBC5D82CFE9B610084086C /* ScoreAntifraudeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECBFF32CFBD09900239000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECBFFD2CFBD09900239000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96ECBFF92CFBD09900239000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96ECBFDD2CFBD09800239000 /* QUOD Antifraude */;
+			targetProxy = 96ECBFF82CFBD09900239000 /* PBXContainerItemProxy */;
+		};
+		96ECC0032CFBD09900239000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96ECBFDD2CFBD09800239000 /* QUOD Antifraude */;
+			targetProxy = 96ECC0022CFBD09900239000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96ECC00B2CFBD09900239000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2258A488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QUOD Antifraude/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QUOD Antifraude";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.QUOD-Antifraude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		96ECC00C2CFBD09900239000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2258A488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QUOD Antifraude/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QUOD Antifraude";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.QUOD-Antifraude";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		96ECC00D2CFBD09900239000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96ECC00E2CFBD09900239000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96ECC0102CFBD09900239000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2258A488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.QUOD-AntifraudeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QUOD Antifraude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QUOD Antifraude";
+			};
+			name = Debug;
+		};
+		96ECC0112CFBD09900239000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2258A488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.QUOD-AntifraudeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QUOD Antifraude.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QUOD Antifraude";
+			};
+			name = Release;
+		};
+		96ECC0132CFBD09900239000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2258A488;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.QUOD-AntifraudeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QUOD Antifraude";
+			};
+			name = Debug;
+		};
+		96ECC0142CFBD09900239000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2258A488;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fiap.QUOD-AntifraudeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QUOD Antifraude";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96ECBFD92CFBD09800239000 /* Build configuration list for PBXProject "QUOD Antifraude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECC00D2CFBD09900239000 /* Debug */,
+				96ECC00E2CFBD09900239000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ECC00A2CFBD09900239000 /* Build configuration list for PBXNativeTarget "QUOD Antifraude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECC00B2CFBD09900239000 /* Debug */,
+				96ECC00C2CFBD09900239000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ECC00F2CFBD09900239000 /* Build configuration list for PBXNativeTarget "QUOD AntifraudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECC0102CFBD09900239000 /* Debug */,
+				96ECC0112CFBD09900239000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ECC0122CFBD09900239000 /* Build configuration list for PBXNativeTarget "QUOD AntifraudeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECC0132CFBD09900239000 /* Debug */,
+				96ECC0142CFBD09900239000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96ECBFD62CFBD09800239000 /* Project object */;
+}
